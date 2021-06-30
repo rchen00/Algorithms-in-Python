@@ -1,0 +1,47 @@
+runfile('C:/Users/rober/Downloads/CSTU/Algorithms/homework/project-wk7.py', wdir='C:/Users/rober/Downloads/CSTU/Algorithms/homework')
+Reloaded modules: partition, priority_queue_base, heap_priority_queue, graph, adaptable_heap_priority_queue, mst, shortest_paths
+<graph.Graph object at 0x000001EF030487F0>
+minimum cost bridges: [<graph.Graph.Edge object at 0x000001EF02DFD080>, <graph.Graph.Edge object at 0x000001EF02DFD3C0>, <graph.Graph.Edge object at 0x000001EF02DFD940>, <graph.Graph.Edge object at 0x000001EF02DFD880>, <graph.Graph.Edge object at 0x000001EF02DFD7C0>, <graph.Graph.Edge object at 0x000001EF02DFDD80>, <graph.Graph.Edge object at 0x000001EF02DFDA00>]
+from 	to 	distance
+3 		 5 		 115
+1 		 8 		 120
+2 		 8 		 155
+4 		 5 		 160
+5 		 8 		 170
+6 		 7 		 175
+2 		 6 		 180
+the minimum total length of the bridges is:  1075
+
+Graph of hops: <graph.Graph object at 0x000001EF02FD3580>
+
+Cloud Map:
+ {<graph.Graph.Vertex object at 0x000001EF02FD3370>: 0, <graph.Graph.Vertex object at 0x000001EF02FD3A30>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3250>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3C10>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3FD0>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3040>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3790>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3F40>: 1}
+1 0
+2 1
+4 1
+7 1
+6 1
+8 1
+3 1
+5 1
+
+Distance Map:
+ {<graph.Graph.Vertex object at 0x000001EF02FD3C10>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3FD0>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3370>: 0, <graph.Graph.Vertex object at 0x000001EF02FD3040>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3A30>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3790>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3250>: 1, <graph.Graph.Vertex object at 0x000001EF02FD3F40>: 1}
+7 1
+6 1
+1 0
+8 1
+2 1
+3 1
+4 1
+5 1
+
+Shortest Path Tree: 
+ {<graph.Graph.Vertex object at 0x000001EF02FD3C10>: <graph.Graph.Edge object at 0x000001EF02DFD5C0>, <graph.Graph.Vertex object at 0x000001EF02FD3FD0>: <graph.Graph.Edge object at 0x000001EF02DFD6C0>, <graph.Graph.Vertex object at 0x000001EF02FD3040>: <graph.Graph.Edge object at 0x000001EF01C3EB80>, <graph.Graph.Vertex object at 0x000001EF02FD3A30>: <graph.Graph.Edge object at 0x000001EF02DFDD00>, <graph.Graph.Vertex object at 0x000001EF02FD3790>: <graph.Graph.Edge object at 0x000001EF02DFDE40>, <graph.Graph.Vertex object at 0x000001EF02FD3250>: <graph.Graph.Edge object at 0x000001EF02DFD600>, <graph.Graph.Vertex object at 0x000001EF02FD3F40>: <graph.Graph.Edge object at 0x000001EF02DFD580>}
+(1,7,1)
+(1,6,1)
+(1,8,1)
+(1,2,1)
+(1,3,1)
+(1,4,1)
+(1,5,1)
